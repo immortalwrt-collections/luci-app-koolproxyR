@@ -7,7 +7,7 @@
 * 如果没有 **ipset, dnsmasq-full, diffutils**，黑名单模式也会出现问题！（ipset 需要版本6）,如果你的固件的busybox带有支持diff支持，那么diffutils包可以不安装
 * 如果没有 **iptables-mod-nat-extra** ，会导致mac过滤失效！
 * 如果没有 **wget, ca-bundle, ca-certificates, libustream-openssl** ，会导致规则文件更新失败，host规则条数变为0,如果你的固件的busybox带有支持https的wget，那么这几个包可以不安装
-
+[加入TG群]( https://t.me/ArisMantos)
 
 
 ## 使用方法
