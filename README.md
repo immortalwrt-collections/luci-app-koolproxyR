@@ -22,10 +22,7 @@
     #编译
     make package/luci-app-koolproxyR/{clean,compile} V=s
 
-
-
-* TG群：https://t.me/koolproxyR
-
+* [加入koolproxyRTG群](https://t.me/koolproxyR)
 
 
 
