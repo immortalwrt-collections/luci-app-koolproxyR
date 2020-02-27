@@ -71,7 +71,7 @@ e.rmempty = false
 e:value(0, translate("关闭"))
 e:value(1, translate("开启"))
 
-e = t:taboption("base", ListValue, "koolproxy_ipv6", translate("IPv6支持(一刀切,有副作用)"))
+e = t:taboption("base", ListValue, "koolproxy_ipv6", translate("IPv6支持"))
 e.default = 0
 e.rmempty = false
 e:value(0, translate("关闭"))
@@ -214,7 +214,7 @@ t:tab("iplist",translate("IP黑名单设置"))
 
 local i = "/etc/adblocklist/adblockip"
 e = t:taboption("iplist", TextValue, "adblock_ip")
-e.description = translate("这些已经加入的ip地址不会使用filter.Please输入ip地址或ip地址段，每行只能输入一个ip地址。例如，112.123.134.145 / 24或112.123.134.145。")
+e.description = translate("这些已经加入的ip地址不会使用过滤器。请输入ip地址或ip地址段，每行只能输入一个ip地址。例如，112.123.134.145 / 24或112.123.134.145。")
 e.rows = 28
 e.wrap = "off"
 e.rmempty = false
