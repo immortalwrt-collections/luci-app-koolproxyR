@@ -8,9 +8,6 @@
 * 如果没有 **iptables-mod-nat-extra** ，会导致mac过滤失效！
 * 如果没有 **wget, ca-bundle, ca-certificates, libustream-openssl** ，会导致规则文件更新失败，host规则条数变为0,如果你的固件的busybox带有支持https的wget，那么这几个包可以不安装
 
-## 说明
-koolproxyR只需开启ABP规则/fanboy规则/ yhosts规则 就行不在依靠ks的规则 
-
 ## 使用方法
 ```Brach
     #源码根目录，进入package文件夹
